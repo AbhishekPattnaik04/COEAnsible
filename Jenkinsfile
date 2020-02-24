@@ -1,6 +1,6 @@
 node {
 stage('Git-Checkout') {
-   git 'https://github.com/natam369/kalinga-store.git'
+   git 'https://github.com/AbhishekPattnaik04/COEAnsible.git'
   }
     stage('Maven-Clean') {
    sh label: '', script: 'mvn clean'
